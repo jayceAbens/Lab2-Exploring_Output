@@ -1,8 +1,10 @@
 /*
 	Jayce Abens
 	FA2021
-	Due: 
+	Due: September 15, 2021
 	Lab 2 Exploring Output
+
+	This program outputs both my weekly class schedule and a checkerboard of asterics and spaces.
 */
 
 #include <iostream>
@@ -22,13 +24,13 @@ const string day[5] =				// declares an array of strings containing each weekday
 };
 const string collegeMWF[2] =		// declares an array of strings containing the times and class names of my M,W,F ICCC classes
 {
-	"8:00-9:30       Composition 1",
-	"10:00-11:00     C++",
+	"8:00-9:30       Composition 1 ENG 105",
+	"10:00-11:00     C++ CIS 162",
 };
 const string collegeTH[2]	=		// declares an array of strings containing the times and class names of my T,H ICCC classes
 {
-	"8:20-9:20       Engineering Problems",
-	"10:00-11:00     C++"
+	"8:20-9:20       Engineering Problems MAT 180",
+	"10:00-11:00     C++ CIS 162"
 };
 const string hsPeriod[5] =		// declares an array of strings containing the times and class names of my high school classes
 { 
