@@ -39,8 +39,8 @@ const string hsPeriod[5] =		// declares an array of strings containing the times
 	"2:31-3:13       Economics" 
 };
 
-string oddRow = "    *         *         *         *";	// declares a string containing the odd numbered rows' spacing
-string evenRow = "*        *         *         *";		// declares a string containing the even numbered rows' spacing
+const string oddRow = "    *         *         *         *";	// declares a string containing the odd numbered rows' spacing
+const string evenRow = "*        *         *         *";		// declares a string containing the even numbered rows' spacing
 
 int main()
 {
