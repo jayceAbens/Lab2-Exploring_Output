@@ -12,7 +12,7 @@ using namespace std;		// specifies standard namespace to reduce "std" repitition
 void printSchedule();		// delcares funtion to print my weekly schedule
 void printCheckerboard();	// declares funtion to print a checkerboard patern
 
-string day[5] =				// declares an array of strings containing each weekday and a black space
+const string day[5] =				// declares an array of strings containing each weekday and a black space
 { 
 	"Monday     ", 
 	"Tuesday    ", 
@@ -20,17 +20,17 @@ string day[5] =				// declares an array of strings containing each weekday and a
 	"Thursday   ", 
 	"Friday     "
 };
-string collegeMWF[2]		// declares an array of strings containing the times and class names of my M,W,F ICCC classes
+const string collegeMWF[2] =		// declares an array of strings containing the times and class names of my M,W,F ICCC classes
 {
 	"8:00-9:30       Composition 1",
 	"10:00-11:00     C++",
 };
-string collegeTH[2]			// declares an array of strings containing the times and class names of my T,H ICCC classes
+const string collegeTH[2]	=		// declares an array of strings containing the times and class names of my T,H ICCC classes
 {
 	"8:20-9:20       Engineering Problems",
 	"10:00-11:00     C++"
 };
-string hsperiod[5] =		// declares an array of strings containing the times and class names of my high school classes
+const string hsPeriod[5] =		// declares an array of strings containing the times and class names of my high school classes
 { 
 	"11:51-12:11     Lunch", 
 	"12:11-12:55     Band", 
@@ -70,7 +70,7 @@ void printSchedule()
 		for (int k = 0; k < 5; k++)				// loops 5 times (5 high school classes), incrementing integer "k" by one
 		{
 			cout << day[i];						// outputs the weekday to the console
-			cout << hsperiod[k];				// outputs the high school time and class to the console
+			cout << hsPeriod[k];				// outputs the high school time and class to the console
 			cout << endl;						// ends line after each "day, time, class" entry
 		}
 		cout << endl;							// ends line after each entire day's schedule is printed
