@@ -20,12 +20,12 @@ string day[5] =				// declares an array of strings containing each weekday and a
 	"Thursday   ", 
 	"Friday     "
 };
-string collegeMWF[2]		// declares an array of strings containing the times and class names of my MWF ICCC classes
+string collegeMWF[2]		// declares an array of strings containing the times and class names of my M,W,F ICCC classes
 {
 	"8:00-9:30       Composition 1",
 	"10:00-11:00     C++",
 };
-string collegeTH[2]			// declares an array of strings containing the times and class names of my MWF ICCC classes
+string collegeTH[2]			// declares an array of strings containing the times and class names of my T,H ICCC classes
 {
 	"8:20-9:20       Engineering Problems",
 	"10:00-11:00     C++"
@@ -39,8 +39,8 @@ string hsperiod[5] =		// declares an array of strings containing the times and c
 	"2:31-3:13       Economics" 
 };
 
-string oddRow = "    *          *          *          *";	// declares a string containing the odd numbered rows' spacing
-string evenRow = "*         *          *          *";		// declares a string containing the even numbered rows' spacing
+string oddRow = "    *         *         *         *";	// declares a string containing the odd numbered rows' spacing
+string evenRow = "*        *         *         *";		// declares a string containing the even numbered rows' spacing
 
 int main()
 {
